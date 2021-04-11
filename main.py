@@ -10,7 +10,7 @@ allowed_hosts = {'localhost', '127.0.0.1', '0.0.0.0'}
 
 def main():
     host = 'localhost'
-    port = '8080'
+    port = '8081'
     arg_len = len(sys.argv)
     if arg_len == 2:
         port = sys.argv[1]
